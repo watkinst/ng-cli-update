@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Uninstalling Angular CLI"
+npm uninstall -g angular-cli @angular/cli
+echo "Verifying Cache"
+npm cache verify
+echo "Installing Angular CLI"
+npm install -g @angular/cli@latest
